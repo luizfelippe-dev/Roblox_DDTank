@@ -28,6 +28,26 @@ This project is a 3D game inspired by the mechanics and gameplay of DDTANK, buil
    - Coins are displayed in the HUD and are rewarded for completing missions or defeating monsters.
    - Players can use coins to buy items in the store.
 
+ ### 4. **Shop System**
+   - The store allows players to purchase items using the coins they have earned. Purchased items are automatically added to the player's inventory.
+
+   - Features:
+   - Display of items available for purchase.
+   - Deduction of coins when purchasing an item.
+   - Add items to the player's inventory after purchase.
+   - Related Code:
+   - File: shop.lua (StarterGui)
+
+
+### 5. **HUD (Graphical Interface)**
+   - O HUD (Heads-Up Display) shows essential information such as health bars, strength and buttons to open the backpack and store.
+   
+  - Features:
+  - Display of life bar and strength bar.
+  - Buttons to access the backpack and store.
+  - Related Code:
+  - File: hud.lua (StarterGui)
+
 ### 4. **PvE Combat System**
    - Players can fight against monsters with unique health, attack, and defense stats.
    - Combat involves calculating damage based on the player's attack and the monster's defense, and vice versa.
