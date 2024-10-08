@@ -1,5 +1,4 @@
-# Creating the README.md file for download
-content = """
+
 # **Roblox DDTANK-Inspired Game**
 
 This project is a 3D game inspired by the mechanics and gameplay of DDTANK, built using Roblox Studio. It features player stats, equipment, PvE combat, an inventory system, and more. The game allows players to equip weapons and shields, engage in battles with monsters, and manage their attributes through an RPG-style system.
@@ -83,3 +82,26 @@ Handles the combat system, calculating damage between the player and monsters. I
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/ddtank-roblox.git
+   ```
+
+2. Open the project in **Roblox Studio**.
+3. Open the scripts located in **StarterPlayerScripts** and **StarterGui** to explore the game's logic.
+4. Test the game locally in Roblox Studio to see the changes in action.
+
+---
+
+## **Contributors**
+
+- **Luiz Fonseca** - Lead Developer and Project Creator.
+
+---
+
+## **License**
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## **Contact**
+
+For questions, issues, or feedback, please contact me via the [GitHub Issues](https://github.com/yourusername/ddtank-roblox/issues) page.
