@@ -1,9 +1,11 @@
 import React from 'react';
+import BannerCarousel from '../components/BannerCarousel';
 import './HomePage.css';
 
 function HomePage() {
   return (
     <div className="home-page">
+      <BannerCarousel />
       <header className="header">
         <h1>Bem-vindo ao DDBlox!</h1>
         <p>
