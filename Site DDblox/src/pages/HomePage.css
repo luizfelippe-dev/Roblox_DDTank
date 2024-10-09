@@ -1,0 +1,109 @@
+/* Estilos globais */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    margin: 0;
+    color: #444;
+  }
+  
+  /* Estilo da página inicial */
+  .home-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Estilo do cabeçalho */
+  .header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+  
+  /* Estilo da imagem de banner */
+  .banner-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo dos destaques do jogo */
+  .highlights {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlights h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .highlight-item {
+    background: linear-gradient(135deg, #76b852, #8DC26F);
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .highlight-item span {
+    font-size: 2.5em;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-item p {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2em;
+    }
+  
+    .highlights {
+      padding: 20px;
+    }
+  
+    .highlight-item {
+      padding: 15px;
+    }
+  
+    .banner-image {
+      max-height: 300px;
+    }
+  }
+  
