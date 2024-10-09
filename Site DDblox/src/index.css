@@ -59,6 +59,26 @@
     margin-bottom: 15px;
     color: #555;
   }
+
+  /* Adicione o código ao final de App.css para que funcione em todo o site */
+.feature-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #444444;
+  transform: scale(1.05);
+}
+
   
   /* Responsividade básica */
   @media (max-width: 768px) {
