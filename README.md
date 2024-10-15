@@ -113,8 +113,7 @@ Handles the combat system, calculating damage between the player and monsters. I
 ## **Contributors**
 
 - **Luiz Felippe S. A. Fonseca** - Lead Developer and Project Creator.
-- **Lucca De Alencar Santini** - Database Administrator.
-- **Vicente** - UX/UI Designer
+- **Vicente** - Builder
 
 ---
 
